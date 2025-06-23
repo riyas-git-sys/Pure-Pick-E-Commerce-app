@@ -8,7 +8,7 @@
 (Clean login interface with username/password fields.)  
 
 2. Home Page (Fashion Section)   
-<img src="https://i.ibb.co/1JJmsm71/Screenshot-2025-06-24-001537.png" width="400" alt="Login Page">   
+<img src="https://i.ibb.co/Vchw1rk1/Screenshot-2025-06-24-001429.png" width="400" alt="Login Page">   
 (Hero section showcasing fashion collection with descriptive text.)   
 
 3. Home Page (Electronics Section)   
