@@ -154,7 +154,7 @@
   cursor: pointer;
 }
 
-.clear-filters-btn:hover{
+.clear-filters-btn:hover {
   background-color: #0967d2;
   color: whitesmoke;
   transform: scale(1.1);

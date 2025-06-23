@@ -27,6 +27,7 @@ class ProductItemDetails extends Component {
     orderConfirmed: false,
     showBuyNowPopup: false,
     name: '',
+    phone: '',
     address: '',
     paymentMethod: '',
     isOrderProcessing: false,
@@ -145,6 +146,7 @@ class ProductItemDetails extends Component {
     this.setState({
       showBuyNowPopup: false,
       name: '',
+      phone: '',
       address: '',
       paymentMethod: '',
     })
@@ -168,6 +170,7 @@ class ProductItemDetails extends Component {
         showBuyNowPopup: false,
         orderConfirmed: true,
         name: '',
+        phone: '',
         address: '',
         paymentMethod: '',
       })
@@ -183,6 +186,7 @@ class ProductItemDetails extends Component {
       productData,
       quantity,
       name,
+      phone,
       address,
       paymentMethod,
       isOrderProcessing,
@@ -224,6 +228,18 @@ class ProductItemDetails extends Component {
               value={name}
               onChange={this.handleInputChange}
               placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              value={phone}
+              onChange={this.handleInputChange}
+              placeholder="Enter your phone number"
               required
             />
           </div>

@@ -2,6 +2,21 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  background-color: #b2b0b5;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.similar-product-item:hover {
+  transform: scale(1.1);
+  transition-duration: 400ms;
+  background-color: rgb(209, 215, 219);
+  .similar-product-img {
+    transform: scaleX(-1.1);
+    transition-duration: 400ms;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -14,6 +29,7 @@
 .similar-product-img {
   width: 200px;
   border-radius: 8px;
+  transition-duration: 500ms;
 }
 
 .similar-product-title {
@@ -36,6 +52,7 @@
   justify-content: space-between;
   align-items: center;
   width: 200px;
+  padding-right: 35px;
 }
 
 .similar-product-price {

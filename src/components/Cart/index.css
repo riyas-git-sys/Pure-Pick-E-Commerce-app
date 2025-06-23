@@ -95,7 +95,8 @@
   gap: 15px;
 }
 
-.confirm-btn, .cancel-btn {
+.confirm-btn,
+.cancel-btn {
   padding: 8px 20px;
   border: none;
   border-radius: 4px;

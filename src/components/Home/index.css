@@ -85,6 +85,12 @@
   margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
+  transition-duration: 500ms;
+}
+
+.home-img:hover {
+  transform: scale(1.1);
+  transition-duration: 400ms;
 }
 
 @media screen and (max-width: 768px) {
@@ -237,12 +243,12 @@
   text-align: center;
   display: block;
   margin-bottom: 30px;
-  text-decoration:;
+  transition-duration: 500ms;
 }
 
 .shop-now-button:hover {
   transform: scale(1.1);
-  transition-duration: 500ms;
+  transition-duration: 400ms;
   background-color: #0c0c0c;
   color: #ffffff;
   text-shadow: #1e293b;
@@ -269,7 +275,7 @@
   height: 50px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .carosel-img {
     height: 200px;
   }
