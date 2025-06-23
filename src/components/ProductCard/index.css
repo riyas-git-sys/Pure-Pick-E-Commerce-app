@@ -15,7 +15,7 @@
   transform: scale(1.1);
   transition-duration: 450ms;
   background-color: #eae8ed;
-  .thumbnail{
+  .thumbnail {
     transform: scaleX(-1);
   }
 }
