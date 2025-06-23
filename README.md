@@ -1,7 +1,10 @@
 # 🛍️ PurePick - Modern E-Commerce Platform
 
 ## Click Here For [PurePick Demo](https://riyaspurepick.ccbp.tech/)
-
+<video width="800" controls>
+  <source src="" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ## ✨ Features
 
 ### 🛒 Core Functionalities
