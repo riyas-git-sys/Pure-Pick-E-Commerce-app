@@ -1,0 +1,280 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-total-value {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 32px;
+  }
+}
+
+.order-total-label {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+
+.total-items {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+  }
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #188f3a;
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+.blur-background {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.checkout-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.checkout-popup-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.checkout-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.close-popup-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.product-list-summary {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.product-list-summary ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.product-list-summary li {
+  margin-bottom: 5px;
+}
+
+.total-amount {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.payment-methods {
+  margin: 20px 0;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cancel-btn {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn.disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.confirm-btn:not(.disabled):hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.order-confirmation-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  animation: slideIn 0.5s ease-out;
+}
+
+.alert-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.alert-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.order-confirmation-alert h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+}
+
+.order-confirmation-alert p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
