@@ -1,10 +1,32 @@
 # 🛍️ PurePick - Modern E-Commerce Platform
 
 ## Click Here For [PurePick Demo](https://riyaspurepick.ccbp.tech/)
-<video width="800" controls>
-  <source src="" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+📷 Screenshots
+1. Login Page   
+<img src="https://i.ibb.co/0y0p3HM7/Screenshot-2025-06-24-001514.png" width="400" alt="Login Page">   
+(Clean login interface with username/password fields.)  
+
+2. Home Page (Fashion Section)   
+<img src="" width="400" alt="Login Page">   
+(Hero section showcasing fashion collection with descriptive text.)   
+
+3. Home Page (Electronics Section)   
+<img src="https://i.ibb.co/1JJmsm71/Screenshot-2025-06-24-001537.png" width="400" alt="Login Page">    
+(Featured electronics products with promotional text.)   
+
+4. Cart Page (With Items)    
+<img src="https://i.ibb.co/67n9Pgnr/Screenshot-2025-06-24-001707.png" width="400" alt="Login Page">
+(Cart listing products with prices and "Remove All" option.)    
+
+5. Logout Confirmation    
+<img src="https://i.ibb.co/SX7XnzgH/Screenshot-2025-06-24-001730.png" width="400" alt="Login Page">    
+(Confirmation dialog for logout.)     
+
+6. Checkout Page    
+<img src="https://i.ibb.co/4g7hzjKW/Screenshot-2025-06-24-001753.png" width="400" alt="Login Page">    
+(Checkout form with payment methods and order summary.)     
+
 ## ✨ Features
 
 ### 🛒 Core Functionalities
