@@ -1,6 +1,6 @@
 # 🛍️ PurePick - Modern E-Commerce Platform
 
-![PurePick Demo](https://riyaspurepick.ccbp.tech/) <!-- Add your demo gif here -->
+## Click Here For [PurePick Demo](https://riyaspurepick.ccbp.tech/)
 
 ## ✨ Features
 
